@@ -1,0 +1,19 @@
+{
+	"name": "Binary1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "InputBlobLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "countries.csv",
+				"container": "input"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
